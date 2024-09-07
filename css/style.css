@@ -243,9 +243,8 @@ body .subscribe form button {
   background-color: #008BD8;
 }
 body .footer {
-    padding-bottom: 159px;
-    background-color: #008BD8;
-    color: #ffffff;
+  background-color: #008BD8;
+  color: #ffffff;
 }
 body .footer .footer__inner {
   padding-top: 160px;
