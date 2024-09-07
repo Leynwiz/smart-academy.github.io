@@ -1,0 +1,313 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EDF6FF;
+    font-size: 20px;
+    line-height: 1.25;
+    font-family: "Ubuntu", sans-serif;
+    // font-family: "Mulish", sans-serif;
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .title{
+        margin-bottom: 113px;
+        text-align: center;
+        color: #008BD8;
+        font-size: 64px;
+        font-weight: 500;
+        line-height: 74px;
+    }
+    .read__btn{
+        display: inline-block;
+        padding: 17px 56px;
+        border-radius: 45px;
+        color: #ffffff;
+        background-color: #FF3C8A;
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 500;
+    }
+    .container{
+        max-width: 1340px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .header{
+        margin-bottom: 170px;
+        min-height: 100vh;
+        background-image: url(../images/header-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;
+        // Для всего хедера
+        .explore__link{
+            padding: 16px 32px;
+            background-color: #FF3C8A;
+            border-radius: 45px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+        }
+        // Конец
+        .header__top{
+            margin-bottom: 200px;
+            padding-top: 37px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .menu__list{
+                margin-left: 10px;
+                display: flex;
+                gap: 80px;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 28px;
+            }
+            .header__logo{
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 32px;
+            }
+        }
+        .header__bottom-title{
+            margin-bottom: 24px;
+            max-width: 990px;
+            font-size: 96px;
+            font-weight: bold;
+            line-height: 110px;
+        }
+        .header__bottom-text{
+            margin-bottom: 64px;
+            max-width: 770px;
+            font-family: "Mulish", sans-serif;
+            line-height: 25px;
+        }
+        .el__fix{
+            display: inline-block;
+            font-family: "Mulish", sans-serif;
+            font-weight: 400;
+            line-height: 25px;
+        }
+    }
+    .our-mission{
+        margin-bottom: 170px;
+        .our-mission__inner{
+            display: flex;
+            justify-content: space-between;
+            .our-mission-text{
+                margin-top: 222px;
+                max-width: 310px;
+                font-family: "Mulish", sans-serif;
+                line-height: 25px;
+                margin-bottom: 289px;
+                color: #363636;
+            }
+            .our-mission__about-us{
+                margin-top: 172px;
+                .our-mission__title{
+                    margin-bottom: 24px;
+                    color: #008BD8;
+                    font-size: 36px;
+                    font-weight: 500;
+                    line-height: 41px;
+                }
+                .our-mission__about-us-description{
+                    margin-bottom: 80px;
+                    max-width: 409px;
+                    font-family: "Mulish", sans-serif;
+                    line-height: 25px;
+                    color: #363636;
+                }
+                .our-mission__about-us-achievements{
+                    display: flex;
+                    gap: 45px;
+                }
+                .achievements__block{
+                    text-align: center;
+                    .achievements__score{
+                        font-size: 36px;
+                        line-height: 41px;
+                        font-weight: 500;
+                        color: #008BD8;
+                    }
+                    .achievements-name{
+                        font-family: "Mulish", sans-serif;
+                        line-height: 25px;
+                        color: #363636;
+                    }
+                }
+            }
+        }
+    }
+    .services{
+        margin-bottom: 170px;
+        .services__inner{
+            text-align: center;
+            .services__blocks{
+                margin-bottom: 80px;
+                display: flex;
+                justify-content: space-between;
+                .services__block{
+                    background-color: #ffffff;
+                    text-align: center;
+                    border-radius: 45px;
+                    .services__block-image{
+                        margin-top: 74px;
+                        margin-bottom: 20px;
+                    }
+                    .services__block-title{
+                        font-size: 24px;
+                        line-height: 28px;
+                        font-weight: 500;
+                        margin-bottom: 33px;
+                    }
+                    .services__block-description{
+                        margin: 0 44px 69px 44px;
+                        line-height: 25px;
+                        max-width: 194px;
+                    }
+                }
+            }
+        }
+    }
+    .recommended{
+        margin-bottom: 116px;
+        .recommended__inner{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .recommended__block{
+                .recommended__block-img{
+                    margin-bottom: 40px;
+                }
+                .recommended__block-title{
+                    margin-bottom: 56px;
+                    font-size: 24px;
+                    line-height: 28px;
+                    font-weight: 500;
+                    color: #008BD8;
+                }
+            }
+        }
+    }
+    .subscribe{
+        background-color: #FF3C8A;
+        .subscribe__title{
+            text-align: center;
+            padding-top: 171px;
+            margin-bottom: 116px;
+            font-size: 64px;
+            line-height: 74px;
+            font-weight: 500;
+            color: #ffffff;
+        }
+        form{
+            display: flex;
+            gap: 56px;
+            padding-bottom: 175px;
+            input{
+                margin-left: 193px;
+                padding: 30px 363px 30px 68px;
+                border-radius: 45px;
+                border: none;
+                outline: none;
+            }
+            input::placeholder{
+                font-family: "Mulish", sans-serif;
+                line-height: 25px;
+                font-weight: 500;
+                color: #363636;
+            }
+            button{
+                cursor: pointer;
+                width: 203px;
+                height: 85px;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 28px;
+                border: none;
+                border-radius: 45px;
+                color: #ffffff;
+                background-color: #008BD8;
+            }
+        }
+    }
+    .footer{
+        background-color: #008BD8;
+        color: #ffffff;
+        .footer__inner{
+            padding-top: 160px;
+            display: flex;
+            justify-content: space-between;
+            .footer__academy-block{
+                .academy__block-title{
+                    margin-bottom: 56px;
+                    font-size: 40px;
+                    line-height: 46px;
+                    font-weight: 700;
+                }
+                .academy__block-description{
+                    margin-bottom: 57px;
+                    max-width: 419px;
+                    line-height: 25px;
+                    font-family: "Mulish", sans-serif;
+                }
+                .academy__block-social{
+                    display: flex;
+                    gap: 40px;
+                }
+            }
+            .footer__links-block{
+                .footer__links-title{
+                    margin-bottom: 57px;
+                    font-size: 28px;
+                    line-height: 32px;
+                    font-weight: 500;
+                }
+                .footer-link{
+                    display: block;
+                    margin-bottom: 27px;
+                    line-height: 25px;
+                    font-weight: 500;
+                    font-family: "Mulish", sans-serif;
+                }
+                .margin__null{
+                    margin-bottom: 0px;
+                }
+            }
+            .footer__course-block{
+                .footer__course-title{
+                    margin-bottom: 57px;
+                    font-size: 28px;
+                    line-height: 32px;
+                    font-weight: 500;
+                }
+                .course-link{
+                    display: block;
+                    margin-bottom: 27px;
+                    line-height: 25px;
+                    font-weight: 500;
+                    font-family: "Mulish", sans-serif;
+                }
+                .margin__null{
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+
